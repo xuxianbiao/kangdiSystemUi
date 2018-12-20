@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KandiCarSystemUI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="contentDescription">contentDescription</string>
+    <string name="usb_in">U盘已插入</string>
+    <string name="usb_out">U盘已拔出</string>
+    <string name="back_service_disable">(后台服务不可用)</string>
+    <string name="main_status_mile">KM</string>
+
+</resources>

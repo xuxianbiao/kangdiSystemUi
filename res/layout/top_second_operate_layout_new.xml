@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topbluebg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/home_top_menu_normal" >
+
+    <ImageButton
+        android:id="@+id/second_internet_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:src="@drawable/home_top_menu_btn" />
+
+    <ImageButton
+        android:id="@+id/second_power_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/second_internet_btn"
+        android:background="@null"
+        android:src="@drawable/home_top_menu_btn" />
+
+    <ImageButton
+        android:id="@+id/second_canmara_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/second_phone_btn"
+        android:background="@null"
+        android:src="@drawable/home_top_menu_btn" />
+
+    <ImageButton
+        android:id="@+id/second_phone_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="8dp"
+        android:background="@null"
+        android:src="@drawable/home_top_menu_btn" />
+
+</RelativeLayout>

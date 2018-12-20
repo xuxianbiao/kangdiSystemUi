@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/home_top_caozuo_bg" >
+
+        <com.kandi.widget.PassThroughButton
+            android:id="@+id/top_opertate_loaction_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/top_operate_location_selector" />
+
+        <com.kandi.widget.PassThroughButton
+            android:id="@+id/top_opertate_music_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/top_operate_music_selector" />
+    </LinearLayout>
+
+    <com.kandi.widget.PassThroughButton
+        android:id="@+id/top_opertate_middle_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/top_operate_middle_icon_selector" />
+
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KandiCarSystemUI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="contentDescription">contentDescription</string>
+    <string name="usb_in">USB has been inserted</string>
+    <string name="usb_out">USB has been pulled out</string>
+    <string name="back_service_disable">(Back-end service unavailable)</string>
+    <string name="main_status_mile">MILES</string>
+
+</resources>

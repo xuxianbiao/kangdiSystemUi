@@ -1,0 +1,77 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    
+    
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent_background</item>
+        
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+    <style name="Theme.KanDi.NoTitleBar" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/background_common</item>
+    </style>
+    
+    <style name="Theme.KanDi.Transparent" parent="Theme.KanDi.NoTitleBar">  
+	    <item name="android:windowBackground">@color/transparent_background</item>  
+	    <item name="android:windowIsTranslucent">true</item>    
+	    <!-- <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item> -->  
+	    <item name="android:windowAnimationStyle">@style/noAnimation</item> 
+   </style>
+   
+    <style name="Theme.KanDi.TransparentWithNoAnimation" parent="Theme.KanDi.NoTitleBar">  
+	    <item name="android:windowBackground">@color/transparent_background</item>  
+	    <item name="android:windowIsTranslucent">true</item>    
+	    <!-- <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item> -->  
+	    <item name="android:windowAnimationStyle">@style/noAnimation</item> 
+   </style>
+    
+    <style name="noAnimation">  
+        <item name="android:activityOpenEnterAnimation">@anim/activity_in</item>  
+        <item name="android:activityOpenExitAnimation">@anim/activity_out</item>  
+        <item name="android:activityCloseEnterAnimation">@anim/activity_in</item>  
+        <item name="android:activityCloseExitAnimation">@anim/activity_out</item>  
+        <item name="android:taskOpenEnterAnimation">@anim/activity_in</item>  
+        <item name="android:taskOpenExitAnimation">@anim/activity_out</item>  
+        <item name="android:taskCloseEnterAnimation">@anim/activity_in</item>  
+        <item name="android:taskCloseExitAnimation">@anim/activity_out</item> 
+        <item name="android:taskToFrontEnterAnimation">@anim/activity_in</item>  
+        <item name="android:taskToFrontExitAnimation">@anim/activity_out</item> 
+        <item name="android:taskToBackEnterAnimation">@anim/activity_in</item>  
+        <item name="android:taskToBackExitAnimation">@anim/activity_out</item>  
+    </style> 
+
+    
+    
+       
+   
+</resources>
